@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/witek010@gmail.com" method="POST">
+    <form action="https://formspree.io/mrblablak@gmail.com" method="POST">
 
         <div>Imię</div>
         <input type="text" name="imię"><br/>
@@ -22,14 +22,16 @@
         <input type="tel" name="usrtel"><br/><br/>
 
         <div>Wybierz swoje miasto</div>
-        <input type="radio" name="city" value="Warszawa" checked> Warszawa<br/>
-        <input type="radio" name="city" value="Kraków"> Kraków<br/>
-        <input type="radio" name="city" value="Gdańsk"> Gdańsk<br/><br/>
+        <select name="miasto">
+        <option value="value1" selected>Warszawa</option>
+        <option value="value2">Kraków</option>
+        <option value="value3">Gdańsk</option>
+        </select><br/><br/>
+        
 
         <div>Płeć</div>
         <input type="radio" name="gender" value="male" checked> Mężczyzna<br/>
-        <input type="radio" name="gender" value="female"> Kobieta<br/>
-        <input type="radio" name="gender" value="other"> Nie wiem<br/><br/>
+        <input type="radio" name="gender" value="female"> Kobieta<br/><br/>
 
         <input type="checkbox" name="data" value="button"> Wyrażam zgodę na przetwarzanie moich danych osobowych<br/><br/>
 
