@@ -9,19 +9,19 @@
 <body>
     <form action="https://formspree.io/mrblablak@gmail.com" method="POST">
 
-        <div>Imię</div>
-        <input type="text" name="imię"><br/>
+        <label for="imie">Imię</label>
+        <input type="text" name="imie"><br/>
 
-        <div>Nazwisko</div>
+        <label for="nazwisko">Nazwisko</label>
         <input type="text" name="nazwisko"><br/>
 
-        <div>E-mail:</div>
+        <label for="email">E-mail</label>
         <input type="email" name="email"><br/>
 
-        <div>Nr Telefonu</div>
+        <label for="usrtel">Nr Telefonu</label>
         <input type="tel" name="usrtel"><br/><br/>
 
-        <div>Wybierz swoje miasto</div>
+        <label for="miasto">Wybierz swoje miasto</label>
         <select name="miasto">
         <option value="value1" selected>Warszawa</option>
         <option value="value2">Kraków</option>
@@ -29,14 +29,14 @@
         </select><br/><br/>
         
 
-        <div>Płeć</div>
+        <label for="gender">Płeć</label>
         <input type="radio" name="gender" value="male" checked> Mężczyzna<br/>
         <input type="radio" name="gender" value="female"> Kobieta<br/><br/>
 
         <input type="checkbox" name="data" value="button"> Wyrażam zgodę na przetwarzanie moich danych osobowych<br/><br/>
 
-        <div>Twoja wiadomość</div>
-        <textarea name="name" id="1" cols="30" rows="10"></textarea><br/><br/>
+        <label for="info">Imię</label>
+        <textarea name="info" id="1" cols="30" rows="10"></textarea><br/><br/>
 
         <div>Wyślij</div>
         <input type="submit" value="Wyślij">
