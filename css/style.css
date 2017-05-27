@@ -1,0 +1,44 @@
+
+body{
+    background-color: #213b50;
+    width: 400px;
+}
+
+label{
+    display: block;
+}
+*{
+    color: white;
+}
+input[type='text'], input[type='tel'], input[type='email'], textarea, select{
+    background-color:#2b4a64;
+    border:1px solid #2b4a64;
+    padding:5px;
+    width:200px;
+    
+}
+input[type='text']:focus, input[type='tel']:focus,input[type='email']:focus, select:focus, textarea:focus{
+    background-color: #4e708c;
+    border:1px solid white;
+    outline:none;
+}
+input[type="submit"]{
+    background-color: #1ac056;
+    margin-top:20px;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+    border-style:none;
+    
+}
+label[for*='man'], label[for*=info]{
+    display:inline;
+}
+div{
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    width:1000px;
+    height:1000px;
+}
